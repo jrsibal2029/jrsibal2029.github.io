@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300&family=Cal+Sans&family=Zalando+Sans+Expanded:ital,wght@0,450;1,450&display=swap" rel="stylesheet">
+
+    <link rel="icon" type="image/x-icon" href="icon.png">
+    <title>all about jamie</title>
+    <style>
+    body {
+        background-image: url("homebg.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        max-width:100%;
+    }
+    .zalando-sans-expanded-jamie {
+     position: absolute;
+     font-family: "Zalando Sans Expanded", sans-serif;
+     font-weight: 500;
+     font-style: normal;
+     font-size: 150px;
+     color: white;
+     letter-spacing: 4px;
+     margin-top: 45px;
+     margin-left: 512px;
+     max-width:100%;
+    }
+    .bricolage-grotesque-abt {
+     position: absolute;
+     font-family: "Bricolage Grotesque", sans-serif;
+     font-weight: 300;
+     font-style: normal;
+     font-variation-settings:
+     "wdth" 100;
+     font-size: 72px;
+     color: white;
+     margin-top: 100px;
+     margin-left: 590px;
+     max-width:100%;
+    }
+    .cal-sans-regular {
+     font-family: "Cal Sans", sans-serif;
+     font-weight: 400;
+     font-style: normal;
+     max-width:100%;
+    }
+    button a {
+                border: 5px solid white;
+                letter-spacing: 1.2px;
+                border-radius: 20px;
+                position: absolute;
+                transform: translate(-50%, -50%);
+                top: 62%;
+                left: 50%;
+                padding: 10px 29px;
+                display: inline-block;
+                font-size: 50px;
+                font-family: "Cal Sans", sans-serif;
+                box-shadow: 0 20px 100px rgba(0, 0, 0, 0.16), 0 30px 60px rgba(0, 0, 0, 0.1);
+                color: white;
+                text-decoration: none;
+                transition: 0.3s ease all;
+                z-index: 1;
+                text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+                max-width:100%;
+            }
+            button:before {
+            transition: 0.5s all ease;
+            position: absolute;
+            top: 55%;
+            left: 50%;
+            margin-left: 39.7%;
+            right: 50%;
+            margin-right: 39.7%;
+            bottom: 31%;
+            border-radius: 17px;
+            opacity: 0;
+            content: '';
+            background-color: white;
+            z-index: -1;
+            max-width:100%;
+            }
+            button:hover a, button:focus a {
+                color: black;
+                text-shadow: none;
+                max-width:100%;
+            }
+            button:hover:before, button:focus:before {
+                transition: 0.5s all ease;
+                left: 0;
+                right: 0;
+                opacity: 1;
+                max-width:100%;
+            }
+    </style>
+    </head>
+    <body>
+    <div class="bricolage-grotesque-abt">
+        <p>all about</p>
+    </div>
+    <div class="zalando-sans-expanded-jamie">
+        <p>Jamie</p>
+    </div>
+    <div class="more">
+        <button class="learnmore">
+            <a href="about.html">learn  more</a>
+        </button>
+    </div>
+    </body>
+</html>
